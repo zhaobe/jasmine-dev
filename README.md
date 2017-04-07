@@ -15,3 +15,6 @@ Basics of JasmineJS testing
 - execute by opening up jasmine-standalone-.../SpecRunner.html in a web browser
 - if done correctly, you should see a test case pass, 0 failures
 
+- to check if test pass, remember to add the reference ...Spec.js to the SpecRunner.html
+- then run the jasmine-standalone-.../SpecRunner.html in order to see if test passed
+
