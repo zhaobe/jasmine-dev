@@ -1,24 +1,23 @@
 // source file for example calculator
 
 window.Calculator = {
-
-    currentVal: 0,
-    varAfterEachExmaple: 0,
+    curVal: 0,
+    varAfterEachExample: 0,
 
     add: function (num1) {
-        this.currentVal += num1;
-        return this.currentVal;
+        this.curVal += num1;
+        return this.curVal;
     },
 
     addAny: function () {
-        var sum = this.currentVal;
+        var sum = this.curVal;
 
         for (var i = 0; i < arguments.length; i++) {
             sum += arguments[i];
         }
 
-        this.currentVal = sum;
-        Return this.currentVal;
+        this.curVal = sum;
+        Return this.curVal;
     },
 
 };

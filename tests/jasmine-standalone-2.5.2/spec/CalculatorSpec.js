@@ -1,8 +1,8 @@
 describe("calculator", function () {
     
     it("Should retain the current value of all time", function () {
-        expect(Calculator.currentVal).toBeDefined();
-        expect(Calculator.currentVal).toEqual(0);
+        expect(Calculator.curVal).toBeDefined();
+        expect(Calculator.curVal).toEqual(0);
     });
     
     it("should add numbers", function () {
