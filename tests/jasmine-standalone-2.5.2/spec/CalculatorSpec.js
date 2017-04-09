@@ -1,17 +1,9 @@
 describe("calculator", function () {
+    var num1 = Math.floor((Math.random() * 100) + 1),
+        num2 = Math.floor((Math.random() * 100) + 1);
     
-    it("Should retain the current value of all time", function () {
-        expect(Calculator.curVal).toBeDefined();
-        expect(Calculator.curVal).toEqual(0);
-    });
-    
-    it("should add numbers", function () {
-        expect(Calculator.add(5)).toEqual(5);
-        expect(Calculator.add(5)).toEqual(10);
-    });
-    
-    it("Should add any number of numbers", function () {
-        expect(Calculator.addAny(1, 2, 3)).toEqual(6);
+    it("should add numbers", function() {
+        expect(Calculator.add(num1, num2)).toBe(num1 + num2);
     });
     
 });
